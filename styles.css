@@ -1,4 +1,4 @@
-body:not(.loaded) #slider img {
+body:not(.loaded) {
   display: none;
 }
 
