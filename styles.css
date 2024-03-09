@@ -31,6 +31,44 @@ main {
   justify-content: center;
 }
 
+nav {
+  position: absolute;
+  top: 5vh;
+  width: 90vw;
+
+  background-color: rgba(248, 250, 252, 0.4);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+}
+
+.nav-options {
+  padding: 1.4rem 4.2rem;
+  font-weight: 500;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  color: #f8fafc;
+  text-decoration: none;
+
+  transition: 0.3s all;
+}
+
+.nav-link:hover {
+  color: rgba(220, 38, 38);
+}
+
+.nav-link:active {
+  color: #f8fafc;
+}
+
 .left {
   width: 50vw;
   height: 100vh;
