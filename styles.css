@@ -12,12 +12,6 @@ html {
   color: #f8fafc;
 }
 
-.loader {
-  width: 100vw;
-  height: 100vh;
-  background-color: #000;
-}
-
 .hidden {
   display: none;
 }

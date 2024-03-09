@@ -7,6 +7,5 @@ document.addEventListener("DOMContentLoaded", function () {
   backgroundImage.onload = function () {
     // Background image has loaded
     document.querySelector("body").classList.remove("hidden");
-    document.querySelector(".loader").classList.add("hidden");
   };
 });
